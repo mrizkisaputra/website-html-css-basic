@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    color: #222;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+/* start section header */
+header {
+    padding: 20px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+header .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navbar a {
+    color: violet;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+}
+
+header img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin-top: 20px;
+    border: .3em solid aquamarine;
+}
+/* end section header */
+
+/* start section main */
+main .content {
+    padding: 20px 20px;
+    text-align: justify;
+    text-transform: lowercase;
+    line-height: 1.5em;
+}
+
+.content .programming .judul {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+
+.content .judul span {
+    font-size: .7em;
+    text-transform: lowercase;
+}
+
+.content .judul a {
+    text-decoration: none;
+}
+
+.content .programming p {
+    margin-bottom: 1em;
+}
+/* end section main */
+
+/* start section footer */
+footer {
+    padding: 0 20px;
+    background-color: #222;
+    color: white;
+}
+
+footer p {
+    padding: 1em;
+    text-align: center;
+}
+/* end section footer*/
